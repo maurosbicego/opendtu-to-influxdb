@@ -1,0 +1,5 @@
+services:
+  opendtu-to-influx:
+    build: .
+    extra_hosts:
+    - "influxdb:127.0.0.1" # change if necessary
